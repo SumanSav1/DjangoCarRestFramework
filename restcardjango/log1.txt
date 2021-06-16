@@ -1,0 +1,253 @@
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view restcarapp.views.car_api didn't return an HttpResponse object. It returned None instead.
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Present_Price
+INFO:root:Kms_Driven
+INFO:root:Kms_Driven2
+INFO:root:Transmission_Mannual
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\suman\Desktop\restcardjango\restcarapp\views.py", line 68, in car_api
+    model = pickle.load(open('random_forest_regression_model.pkl', 'rb'))
+FileNotFoundError: [Errno 2] No such file or directory: 'random_forest_regression_model.pkl'
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Present_Price
+INFO:root:Kms_Driven
+INFO:root:Kms_Driven2
+INFO:root:Transmission_Mannual
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\suman\Desktop\restcardjango\restcarapp\views.py", line 68, in car_api
+    model = pickle.load(open('random_forest_regression_model.pkl', 'rb'))
+FileNotFoundError: [Errno 2] No such file or directory: 'random_forest_regression_model.pkl'
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Present_Price
+INFO:root:Kms_Driven
+INFO:root:Kms_Driven2
+INFO:root:Transmission_Mannual
+INFO:django.utils.autoreload:C:\Users\suman\Desktop\restcardjango\restcarapp\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\suman\Desktop\restcardjango\restcarapp\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\suman\Desktop\restcardjango\restcarapp\views.py changed, reloading.
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Present_Price
+INFO:root:Kms_Driven
+INFO:root:Kms_Driven2
+INFO:root:Transmission_Mannual
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view restcarapp.views.car_api didn't return an HttpResponse object. It returned None instead.
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view restcarapp.views.car_api didn't return an HttpResponse object. It returned None instead.
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view restcarapp.views.car_api didn't return an HttpResponse object. It returned None instead.
+WARNING:django.request:Not Found: /home/
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view restcarapp.views.car_api didn't return an HttpResponse object. It returned None instead.
+WARNING:django.request:Not Found: /home/
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\suman\anaconda3\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view restcarapp.views.car_api didn't return an HttpResponse object. It returned None instead.
+WARNING:django.request:Not Found: /home/
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:django.utils.autoreload:C:\Users\suman\Desktop\restcardjango\restcarapp\views.py changed, reloading.
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Present_Price
+INFO:root:Kms_Driven
+INFO:root:Kms_Driven2
+INFO:root:Transmission_Mannual
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Present_Price
+INFO:root:Kms_Driven
+INFO:root:Kms_Driven2
+INFO:root:Transmission_Mannual
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Present_Price
+INFO:root:Kms_Driven
+INFO:root:Kms_Driven2
+INFO:root:Transmission_Mannual
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Present_Price
+INFO:root:Kms_Driven
+INFO:root:Kms_Driven2
+INFO:root:Transmission_Mannual
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Present_Price
+INFO:root:Kms_Driven
+INFO:root:Kms_Driven2
+INFO:root:Transmission_Mannual
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Present_Price
+INFO:root:Kms_Driven
+INFO:root:Kms_Driven2
+INFO:root:Transmission_Mannual
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Present_Price
+INFO:root:Kms_Driven
+INFO:root:Kms_Driven2
+INFO:root:Transmission_Mannual
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Present_Price
+INFO:root:Kms_Driven
+INFO:root:Kms_Driven2
+INFO:root:Transmission_Mannual
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Present_Price
+INFO:root:Kms_Driven
+INFO:root:Kms_Driven2
+INFO:root:Transmission_Mannual
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Present_Price
+INFO:root:Kms_Driven
+INFO:root:Kms_Driven2
+INFO:root:Transmission_Mannual
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Present_Price
+INFO:root:Kms_Driven
+INFO:root:Kms_Driven2
+INFO:root:Transmission_Mannual
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Present_Price
+INFO:root:Kms_Driven
+INFO:root:Kms_Driven2
+INFO:root:Transmission_Mannual
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Present_Price
+INFO:root:Kms_Driven
+INFO:root:Kms_Driven2
+INFO:root:Transmission_Mannual
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Present_Price
+INFO:root:Kms_Driven
+INFO:root:Kms_Driven2
+INFO:root:Transmission_Mannual
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Present_Price
+INFO:root:Kms_Driven
+INFO:root:Kms_Driven2
+INFO:root:Transmission_Mannual
+INFO:django.utils.autoreload:C:\Users\suman\Desktop\restcardjango\restcarapp\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\suman\Desktop\restcardjango\restcarapp\views.py changed, reloading.
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Transmission_Mannual
+INFO:root:comes into post prediction1
+INFO:root: request.body
+INFO:root:pythondata
+INFO:root:comes into valid prediction
+INFO:root:Transmission_Mannual
